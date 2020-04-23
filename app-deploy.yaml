@@ -5,9 +5,9 @@ metadata:
     architecture: x86_64
     authoritative-source-url: registry.access.redhat.com
     build-date: 2019-10-29T16:44:53.794580
-    commit.image.appsody.dev/author: yiqi <yiqi@yiqideMacBook-Air.local>
-    commit.image.appsody.dev/committer: yiqi <yiqi@yiqideMacBook-Air.local>
-    commit.image.appsody.dev/date: Thu Apr 23 16:29:13 2020 +0800
+    commit.image.appsody.dev/author: root <root@krait-inf.fyre.ibm.com>
+    commit.image.appsody.dev/committer: root <root@krait-inf.fyre.ibm.com>
+    commit.image.appsody.dev/date: Thu Apr 23 05:39:54 2020 -0700
     commit.image.appsody.dev/message: first commit
     commit.stack.appsody.dev/author: kilnerm <38245247+kilnerm@users.noreply.github.com>
     commit.stack.appsody.dev/committer: GitHub <noreply@github.com>
@@ -17,12 +17,11 @@ metadata:
     description: This image is the Kabanero development container for the java-spring-boot2
       stack
     distribution-scope: public
-    image.opencontainers.org/created: "2020-04-23T05:37:15-07:00"
-    image.opencontainers.org/documentation: https://github.com/yiqi19940531/appsodysb
-    image.opencontainers.org/revision: c1cf2fcda44263d68ffe353a153f094957da2694
-    image.opencontainers.org/source: https://github.com/yiqi19940531/appsodysb/tree/HEAD
-      -> origin
-    image.opencontainers.org/url: https://github.com/yiqi19940531/appsodysb
+    image.opencontainers.org/created: "2020-04-23T06:15:47-07:00"
+    image.opencontainers.org/documentation: https://github.com/yiqi19940531/appsodytkn
+    image.opencontainers.org/revision: d8413fb8ac1e9d9d94de72ddb8e16232daf0635d-modified
+    image.opencontainers.org/source: https://github.com/yiqi19940531/appsodytkn/tree/master
+    image.opencontainers.org/url: https://github.com/yiqi19940531/appsodytkn
     k8s.io/description: The Universal Base Image is designed and engineered to be
       the base layer for all of your containerized applications, middleware and utilities.
       This base image is freely redistributable, but Red Hat only supports Red Hat
@@ -59,7 +58,7 @@ metadata:
     image.opencontainers.org/title: appsodysb
     stack.appsody.dev/id: java-spring-boot2
     stack.appsody.dev/version: 0.3.28
-  name: appsodysb
+  name: kabanero
 spec:
   applicationImage: dev.local/appsodysb
   createKnativeService: false
